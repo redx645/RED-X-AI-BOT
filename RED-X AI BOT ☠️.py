@@ -22,7 +22,7 @@ bot = telebot.TeleBot(token)
 
 
 def s(message):
-	bot.send_message(message.chat.id,text='Welcome to the programming bot. Send your request..')
+	bot.send_message(message.chat.id,text='Welcome to the Red-X programming bot. Send your request..')
 	
 
 @bot.message_handler(content_types=['text'])
